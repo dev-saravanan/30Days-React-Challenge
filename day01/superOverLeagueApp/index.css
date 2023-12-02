@@ -1,0 +1,26 @@
+/* Write your code here. */
+* {
+  margin: 0;
+}
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.heading-text {
+  color: #f8fafc;
+  font-family: "Roboto";
+}
+.image {
+  width: 100%;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
