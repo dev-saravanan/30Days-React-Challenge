@@ -1,0 +1,32 @@
+.bg-container {
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter-heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #2d3a35;
+}
+.counter-number {
+  color: #c20a72;
+}
+.counter-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #2d3a35;
+}
+.increment-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #007bff;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
