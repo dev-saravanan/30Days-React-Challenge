@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+.head-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #ffffff;
+  font-style: italic;
+}
+.image {
+  width: 50%;
+}
+.speed-count-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+}
+.description {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+.brake-btn {
+  background-color: transparent;
+  color: #cbd5e1;
+  border: 2px solid #cbd5e1;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100px;
+  box-sizing: content-box;
+  cursor: pointer;
+  outline: none;
+}
