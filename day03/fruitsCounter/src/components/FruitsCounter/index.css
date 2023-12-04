@@ -1,0 +1,77 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+}
+.inner-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.mangoes-container,
+.bananas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.fruit-img {
+  width: 300px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 0px;
+  padding: 8px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.count {
+  color: #ffd569;
+}
+@media (max-width: 767px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fruits-count-text {
+    font-family: 'Roboto';
+    font-size: 28px;
+    color: #000000;
+  }
+}
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 60px;
+  }
+  .fruits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .fruits-count-text {
+    font-family: 'Roboto';
+    font-size: 42px;
+    color: #000000;
+  }
+}
