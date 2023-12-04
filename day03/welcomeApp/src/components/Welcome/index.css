@@ -1,0 +1,30 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e293b;
+}
+.welcome-text {
+  font-family: 'Bree Serif';
+  font-size: 42px;
+  color: #f0bb03;
+  font-weight: bold;
+}
+.thanking-text {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  color: #ffffff;
+}
+.button {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}

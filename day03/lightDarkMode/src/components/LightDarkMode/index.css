@@ -1,0 +1,43 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 8px;
+}
+.dark-container {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-container {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.dark-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+}
+.light-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #000000;
+}
+.button {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #000000;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
