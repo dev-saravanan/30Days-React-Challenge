@@ -1,0 +1,35 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heading-text {
+  font-family: 'Roboto';
+  font-size: 42px;
+  margin-left: 30px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+.search-icon {
+  width: 25px;
+}
+.search-bar {
+  border: 0px;
+  background-color: #f1f5f9;
+  padding: 8px;
+}
+.all-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
