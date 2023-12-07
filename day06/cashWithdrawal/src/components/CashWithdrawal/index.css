@@ -1,0 +1,84 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 400px;
+  height: 500px;
+  padding: 16px;
+  border-radius: 16px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  margin: 8px;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 8px;
+}
+.name-text {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.balance-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #382f5a;
+  font-weight: bold;
+}
+.balance-amount {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #d4d2db;
+}
+.amount-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #382f5a;
+  font-weight: bold;
+}
+.withdraw-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #d4d2db;
+  font-weight: bold;
+}
+.withdraw-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #382f5a;
+  font-weight: bold;
+}
+.denomination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
