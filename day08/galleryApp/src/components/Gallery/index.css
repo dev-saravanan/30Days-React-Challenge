@@ -1,0 +1,28 @@
+.bg-container {
+  padding: 28px;
+}
+
+.active-image {
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #1e293b;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+}
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
