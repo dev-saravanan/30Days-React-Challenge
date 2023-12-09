@@ -1,0 +1,11 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.empty-view-text {
+  font-family: 'Roboto';
+  color: #64748b;
+}
