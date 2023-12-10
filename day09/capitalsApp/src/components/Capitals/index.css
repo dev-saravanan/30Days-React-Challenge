@@ -1,0 +1,42 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+.card-container {
+  background-color: #f8fafc;
+  padding: 32px;
+  border-radius: 8px;
+}
+.heading-text {
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+
+.select-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.select-item {
+  padding: 8px;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-right: 8px;
+  color: #000000;
+  font-weight: bold;
+}
+.select-capital-description {
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+.country-text {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 18px;
+}
