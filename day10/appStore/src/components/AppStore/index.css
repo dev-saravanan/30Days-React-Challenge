@@ -1,0 +1,58 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+.heading-text {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #7b8794;
+}
+.search-input {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  background-color: transparent;
+  padding: 8px;
+  outline: none;
+  border-radius: 4px;
+  border: 0px;
+}
+.search-icon-img {
+  width: 24px;
+}
+
+/* Tab Item Container  */
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 24px;
+
+  padding: 0;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}

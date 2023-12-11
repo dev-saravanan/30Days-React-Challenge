@@ -1,0 +1,14 @@
+.tab-button {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 4px solid #7b879460;
+  padding: 12px;
+  font-family: 'Bree Serif';
+  color: #7b8794;
+  font-size: 16px;
+  cursor: pointer;
+}
+.active-tab {
+  color: #2563eb;
+  border-color: #2563eb;
+}
