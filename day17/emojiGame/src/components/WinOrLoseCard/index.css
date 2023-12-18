@@ -1,0 +1,56 @@
+.card-container {
+  width: 624px;
+  padding: 44px;
+  background-color: #ffffff33;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ffffff30;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    flex-direction: column;
+    margin: 32px;
+  }
+  .text-container {
+    order: 2;
+  }
+}
+
+.text-container {
+  text-align: center;
+  font-family: 'Roboto';
+}
+.result-text {
+  color: #ffffff;
+  font-size: 48px;
+}
+.best-score-text {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.score-count {
+  font-size: 32px;
+  color: #6a59ff;
+  font-weight: bold;
+  margin-top: 0;
+}
+.play-again-btn {
+  padding: 8px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.result-img {
+  width: 220px;
+  order: 1;
+}
